@@ -7,10 +7,13 @@ class Book {
         string title;
         string author;
         int pages;
+        Book( string nm){
+            cout << "Creating object" << nm;
+        }
 };
 
 int main(){
-    Book book1;
+    Book book1(" Hello ");
 
     book1.title = "harrry Potter";
     book1.author = "jk rowling";
