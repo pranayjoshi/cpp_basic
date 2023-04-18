@@ -31,7 +31,6 @@ int main(){
     HPBook book1(" Hello ", "harrry Potter", "jk rowling", 500, 2);
     
     
-    
     cout << book1.title;
 
     return 0;
