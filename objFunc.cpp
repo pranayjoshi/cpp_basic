@@ -13,12 +13,21 @@ class Book {
             author = s_author;
             pages = pg;
         }
+
+        bool isLengthy(){
+            // if (pages >=100){
+            //     return true
+            // } else {
+            //     return false
+            // }
+            return (pages >= 100);
+        }
 };
 
 int main(){
     Book book1(" Hello ", "harrry Potter", "jk rowling", 500);
 
-    cout << book1.title;
+    cout << book1.title << book1.isLengthy();
 
     return 0;
 }
